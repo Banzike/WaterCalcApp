@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Well...done</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="header_title_drawer">Τίτλος</string>
     <string name="header_text_drawer">Κείμενο</string>
     <string name="nav_drawer">Navigation Drawer</string>
