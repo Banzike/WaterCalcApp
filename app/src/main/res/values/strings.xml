@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Well...done</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="header_title_drawer">Τίτλος</string>
+    <string name="header_text_drawer">Κείμενο</string>
+    <string name="nav_drawer">Navigation Drawer</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_action">Επιλέξτε ενέργεια:</string>
+    <string name="insert_new_reservoir">Εισάγετε νέο ταμιευτήρα</string>
+    <string name="update_reservoir">Ενημέρωση ταμιευτήρα</string>
+    <string name="show_map">Προβολή Χάρτη</string>
+    <string name="insert_water_level">Εισάγετε το επίπεδο του \nνερού σε μέτρα</string>
+    <string name="go_next">Υποβολή</string>
+    <string name="choose_mapmethod_string">Επιλέξτε μέθοδο υποβολής τοποθεσίας:</string>
+    <string name="auto_map_method_string">Αυτόματα</string>
+    <string name="manual_map_method">Χειροκίνητα αναλυτικά</string>
+    <string name="well_mage">well image</string>
+    <string name="rectangular_reservoir">rectangular reservoir</string>
+    <string name="insert_depth">Εισάγετε το βάθος σε μέτρα:</string>
+    <string name="go_on">Συνέχεια</string>
+    <string name="measure_water_level_instructions"><i><u>Οδηγίες μέτρησης επιπέδου νερού:</u></i></string>
+    <string name="waterlvl_instructions">Θα χρειαστούμε πετονιά, φελλό ένα μικρό βαρίδιο και μέτρο. Προσοχή το βαρίδιο να <i><u><b>ΜΗΝ</b></u></i>   είναι από <u>μόλυβδο</u>.\nΑντί για φελλό και βαρίδιο μπορούμε να χρησιμοποιήσουμε μπουκάλι, είτε γυάλλινο ή πλαστικό, αλλά όχι με πολύ νερό για να μπορεί να επιπλέει.\n\n• Περνάμε στην πετονιά τον φελλό και ύστερα το βαρίδιο. \n\n• Το ρίχνουμε μέσα και αφού αρχίσει να επιπλέει, το τεντώνουμε και σημειώνουμε το σημείο της πετονιάς στο χείλος με ταινία ή μαρκαδόρο.\n\n• Μετράμε τη ζητούμενη απόσταση με το μέτρο.</string>
+    <string name="colours_meaning">• Με <font color="#FF0000">κόκκινο</font> δείχνουμε τη ζητούμενη  απόσταση.\n\n• Με <font color="#0008FF">μπλε</font> το μέρος της πετονιάς που  σημαδεύουμε.</string>
+    <string name="depth_help1">Για τη μέτρηση του βάθους θα χρειαστούμε πετονιά, μεγάλο βαρίδιο κατά προτίμηση ατσαλένιο και μέτρο. Προσοχή το βαρίδιο να <i><u><b>ΜΗΝ</b></u></i>  είναι από <u>μόλυβδο</u>.\n\n• Το δένουμε και το χαμηλώνουμε μέχρι να χτυπήσει	τον βυθό.\n• Με τεντωμένη την πετονιά, κάθετα στον βυθό, τη σημαδεύουμε με ταινία ή μαρκαδόρο εκεί που περνάει από το χείλος.\n\n• Βγάζουμε το βαρίδιο, τεντώνουμε την πετονιά και μετράμε το μήκος από το βαρίδιο μέχρι εκεί που σημειώσαμε.\n\n• Εισάγουμε το μήκος σε μέτρα στην εφαρμογή.\n\n• Με <font color="#FF0000">κόκκινο</font> δείχνουμε τη ζητούμενη απόσταση.\n\n• Με <font color="#0008FF">μπλε</font> το σημείο της πετονιάς που θέλουμε να σημαδέψουμε.</string>
+    <string name="depth_help_title"><i><u>Οδηγίες μέτρησης βάθους</u></i>:</string>
+    <string name="diameter_help_text1">Θα χρειαστούμε μέτρο και σχοινί (ή πετονιά). Eάν η απόσταση είναι μικρή μπορούμε να χρησιμοποιήσουμε μόνο το μέτρο. \n\n• Η διάμετρος περνάει από το κέντρο του κύκλου και είναι η μεγαλύτερη δυνατή απόσταση μεταξύ δύο σημείων του. Μετράμε έτσι ώστε το μήκος του τεντωμένου σχοινιού/πετονιάς πάνω από το πηγάδι να είναι μέγιστο και περνάμε τη μέτρησή μας στην εφαρμογή.\n\n• Με <font color="#FF0000">κόκκινο</font> φαίνεται η ζητούμενη απόσταση.\n\n• Με <font color="#fcff00">κίτρινο</font> μερικές λάθος μετρήσεις.</string>
+    <string name="diameter_instructions_title"><i><u>Οδηγίες μέτρησης της διαμέτρου</u></i>:</string>
+
+    <!--Output to TextView styled with a little HTML -->
+    <string name="title"><![CDATA[<h3>Στοιχεία ταμιευτήρα:</h3>]]></string>
+    <string name="time_created"><![CDATA[<b>Δημιουργήθηκε:</b>]]></string>
+    <!--<string name="end_time"><![CDATA[<b>End:</b>]]></string>-->
+    <string name="x"><![CDATA[<b>Πλάτος:</b>]]></string>
+    <string name="y"><![CDATA[<b>Μήκος</b>]]></string>
+
+    <string name="myClientId">205788485122-oplt2tq302dud2psllq4scb2ieq45041.apps.googleusercontent.com</string>
+
+    <string-array name="show_from_users_array">
+        <item>Όλα</item>
+        <item>Τα δικά σας</item>
+    </string-array>
+
+    <string-array name="existing_users">
+        <item>User 0</item>
+    </string-array>
+
+    <integer name="update_reserve_notification_ID">1</integer>
+    <string name="update_reserve_notification_text">Το επίπεδο νερού της δεξαμενής σας θα πρέπει να ενημερωθεί σήμερα</string>
+
+    <string name="notification_channel_ID">channel_1</string>
+    <string name="notifcation_channel_name">channel 1</string>
+    <string name="notification_channel_description">This is the notification channel 1\'s description</string>
+    <string name="change_email_text"><u>Αλλαγή e-mail</u></string>
+    <string name="delete_user_text"><u>Διαγραφή λογαριασμού</u></string>
+
+</resources>

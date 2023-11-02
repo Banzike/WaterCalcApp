@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".screens.roundOrRec.RoundOrRectangularFragment">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Επιλέξτε το σχήμα της δεξαμενής:"
+            app:layout_constraintBottom_toTopOf="@+id/well_image_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/well_image_button"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="186dp"
+            android:background="@drawable/flash_grey_select"
+            android:clickable="true"
+            android:contentDescription="@string/well_mage"
+            android:focusable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/well"
+            android:layout_marginBottom="@dimen/distance_19"
+            app:layout_constraintBottom_toTopOf="@+id/rectangular_image_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/rectangular_image_button"
+            android:layout_width="210dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginEnd="186dp"
+            android:layout_marginBottom="225dp"
+            android:background="@drawable/flash_grey_select"
+            android:clickable="true"
+            android:contentDescription="@string/rectangular_reservoir"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rectank"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/well_image_button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

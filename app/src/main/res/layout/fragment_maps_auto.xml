@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="mapsAutoViewModel"
+            type="android.example.myapplication002.screens.mapLocationIn.MapsAutoViewModel" />
+    </data>
+ <FrameLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.fragment.app.FragmentContainerView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapauto"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.mapLocationIn.MapsAutoFragment" />
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Συνέχεια"
+         android:id="@+id/go_next_button"
+         android:layout_gravity="bottom|center"
+         style="@style/button_style"/>
+<!--         android:onClick="@{()->mapsAutoViewModel.storeCoordinates()}"/>-->
+<!--         android:enabled="@{mapsAutoViewModel.goNextVisible}"-->
+
+
+<!--     <Button-->
+<!--         android:layout_width="wrap_content"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         style="@style/button_style"-->
+<!--         android:id="@+id/store_coordinates_button"-->
+<!--         android:text="Ενημέρωση θέσης"-->
+<!--         android:layout_gravity="top|center"-->
+<!--         />-->
+    </FrameLayout>
+</layout>

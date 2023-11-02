@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:id="@+id/title_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.title.TitleFragment"
+
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/choose_action"-->
+<!--        style="@style/text_style"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/choose_action" />-->
+
+    <Button
+        android:id="@+id/insert_reservoir_Button"
+        style="@style/button_style"
+        android:text="@string/insert_new_reservoir" />
+
+<!--    <Button-->
+<!--        android:id="@+id/update_reservoir_button"-->
+<!--        android:text="@string/update_reservoir"-->
+<!--        style="@style/button_style"-->
+<!--        />-->
+
+
+    <Button
+        style="@style/button_style"
+        android:id="@+id/show_map_button"
+        android:text="@string/show_map"/>
+</LinearLayout>
+</layout>

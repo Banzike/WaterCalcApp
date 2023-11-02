@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="insertdiameterViewModel"
+            type="android.example.myapplication002.screens.well.insertDiameter.InsertDiameterViewModel"
+            />
+
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".screens.well.insertDiameter.InsertDiameterFragment">
+
+
+
+ <ImageButton
+        android:id="@+id/help_diameter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:src="@drawable/help"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/insert_diameter"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/distance_19"
+        android:hint="Εισάγετε τη διάμετρο σε μέτρα"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/button_style"-->
+<!--        android:text="Αποθηκεύστε"-->
+<!--        android:id="@+id/store_diameter_button"-->
+<!--        />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_style"
+        android:text="Ενημερώστε"
+        android:id="@+id/update_diameter_button" />
+<!--        android:onClick="@{()->insertdiameterViewModel.updateDiameter()}"-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/diameter_next_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/button_style"-->
+<!--        android:text="Συνέχεια"-->
+<!--        />-->
+</LinearLayout>
+</layout>

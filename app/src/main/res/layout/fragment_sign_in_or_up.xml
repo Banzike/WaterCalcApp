@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+             android:id="@+id/sign_in_or_up_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:gravity="center">
+
+    <Button
+       style="@style/button_style"
+
+       android:text="Είσοδος"
+       android:id="@+id/sign_in_button"/>
+
+    <Button
+        style="@style/button_style"
+        android:text="Δημιουργία τοπικού λογαριασμού"
+        android:id="@+id/sign_up_button"/>
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/skip_button"-->
+<!--        android:text="SKIP"/>-->
+
+
+
+
+</LinearLayout>
+</layout>

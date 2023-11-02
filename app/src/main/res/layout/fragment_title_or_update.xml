@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.titleOrUpdate.TitleOrUpdateFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/choose_title_or_update"-->
+<!--        style="@style/text_style"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/choose_action" />-->
+
+    <Button
+
+        android:id="@+id/update_reservoir_button"
+        style="@style/button_style"
+        android:text="Ενημερώστε το επίπεδο νερού" />
+
+    <Button
+        android:id="@+id/go_to_title_button"
+        android:text="Επιστροφή στην κεντρική σελίδα"
+        style="@style/button_style"
+        />
+</LinearLayout>
+</layout>

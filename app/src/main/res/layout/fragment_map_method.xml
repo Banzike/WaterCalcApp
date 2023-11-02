@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".screens.mapmethod.MapMethodFragment">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/choose_map_methodButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/choose_mapmethod_string"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="14sp"-->
+<!--        android:layout_marginBottom="@dimen/distance_19"-->
+<!--        style="@style/text_style"/>-->
+
+    <Button
+       style="@style/button_style"
+        android:id="@+id/auto_update_button"
+        android:text="@string/auto_map_method_string"
+        android:layout_marginBottom="@dimen/distance_19"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/manual_update_button"-->
+<!--        style="@style/button_style"-->
+<!--        android:text="@string/manual_map_method"-->
+<!--        />-->
+
+    <Button
+       android:id="@+id/actual_manual_map_button"
+        style="@style/button_style"
+        android:text="Χειροκίνητα"
+        android:layout_marginTop="@dimen/distance_19"/>
+</LinearLayout>
+</layout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="insertDimensViewModel"
+            type="android.example.myapplication002.screens.rect.insertDimens.InsertDimensViewModel" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".screens.rect.insertDimens.InsertDimensFragment">
+
+
+
+
+
+<EditText
+    android:id="@+id/insert_length"
+    style="@style/text_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/distance_19"
+    android:hint="Εισάγετε το μήκος σε μέτρα"
+    android:inputType="numberDecimal"
+    android:text="" />
+
+
+ <EditText
+     android:id="@+id/insert_width"
+     style="@style/text_style"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="@dimen/distance_19"
+     android:hint="Εισάγετε το πλάτος σε μέτρα"
+     android:inputType="numberDecimal"
+     android:text="" />
+
+<Button
+    android:id="@+id/dimens_next_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/button_style"
+    android:text="Συνέχεια"
+    />
+</LinearLayout>
+    </layout>

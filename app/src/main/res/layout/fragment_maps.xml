@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="mapsViewModel"
+            type="android.example.myapplication002.screens.mapLocationIn.MapsViewModel" />
+    </data>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<fragment xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maps"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.mapLocationIn.MapsFragment" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/go_to_choice_button"
+        style="@style/button_style"
+        android:layout_gravity="bottom|center"
+        android:text="@string/go_next"
+        android:layout_marginBottom="@dimen/distance_19"
+        />
+</FrameLayout>
+</layout>

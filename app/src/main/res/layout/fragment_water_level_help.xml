@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screens.insertwaterlevel.WaterLevelHelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/measure_water_level_instructions"
+        style="@style/text_style"
+       />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/distance_19"
+        android:src="@drawable/water_cork" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text2_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dist_50"
+        android:text="@string/waterlvl_instructions"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text2_style"
+        android:layout_marginLeft="@dimen/distance_19"
+        android:layout_marginTop="@dimen/distance_19"
+        android:layout_marginRight="@dimen/distance_19"
+        android:text="@string/colours_meaning" />
+
+</LinearLayout>
+    </ScrollView>
+</layout>

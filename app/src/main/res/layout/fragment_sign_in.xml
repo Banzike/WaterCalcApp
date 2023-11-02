@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="signInViewModel"
+            type="android.example.myapplication002.screens.signInOrUp.SignInViewModel"/>
+
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".screens.signInOrUp.SignInFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Όνομα Χρήστη ή E-mail"
+        android:id="@+id/user_name_text"
+        android:paddingVertical="25dp"
+        android:autofillHints="username"
+        android:importantForAutofill="yes"
+        android:layout_marginBottom="30dp"
+        />
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="E-mail"-->
+<!--        android:id="@+id/email_text"/>-->
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="password"
+        android:hint="Κωδικός"
+        android:inputType="textPassword"
+        android:paddingVertical="25dp"
+        android:importantForAutofill="yes"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        style="@style/button_style"
+        android:text="Είσοδος με πάροχο"
+        android:id="@+id/sign_in_button"/>
+    <Button
+        android:id="@+id/sign_in_local_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Είσοδος με τοπικό λογαριασμό"/>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/sign_out_button"-->
+<!--        android:text="SIGN OUT"/>-->
+
+<!--    <Button-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:id="@+id/skip_button"-->
+<!--       android:text="ΣΥΝΕΧΕΙΑ"-->
+
+<!--        />-->
+<!--    <Button-->
+<!--        style="@style/button_style"-->
+<!--        android:text="CLEAR DATABASE"-->
+<!--        android:id="@+id/delete_users_button"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/user_spinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        />-->
+
+
+</LinearLayout>
+</layout>

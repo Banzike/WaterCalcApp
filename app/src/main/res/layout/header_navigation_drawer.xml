@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wave"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:theme="@style/ThemeOverlay.AppCompat">
+
+
+    <ImageButton
+        android:id="@+id/userimagebutton"
+        android:layout_width="115dp"
+        android:layout_height="125dp"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_person_pin_24"
+        app:layout_constraintBottom_toTopOf="@+id/headerusernametextview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/headerusernametextview"
+        android:layout_width="73dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="left"
+        android:text="Μπανζίκος"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:src="@drawable/blue"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

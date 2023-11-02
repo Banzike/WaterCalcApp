@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavView" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/dark_green</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar"/>
+
+    <style name="text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/distance_19</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_style" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:fontFamily"> sans-serif-condensed-medium</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/teal_text</item>
+        <item name="android:bottomRightRadius">10dp</item>
+        <item name="android:bottomLeftRadius">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="text2_style">
+        <item name="android:layout_marginTop">@dimen/distance_19</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:layout_marginRight">@dimen/distance_19</item>
+        <item name="android:layout_marginLeft">@dimen/distance_19</item>
+    </style>
+
+    <style name="help_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/cardview_shadow_end_color</item>
+    </style>
+
+    <style name="text_user_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:clickable">true </item>
+    </style>
+</resources>

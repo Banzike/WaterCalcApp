@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "205788485122",
+    "firebase_url": "https://watercalctestproject-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "watercalctestproject",
+    "storage_bucket": "watercalctestproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205788485122:android:9af7f696a9ceac42d9f91b",
+        "android_client_info": {
+          "package_name": "android.example.mapfirebasetestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205788485122-oplt2tq302dud2psllq4scb2ieq45041.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPM-mHtHaQvCZa7yKvfJYz14vH5_j5Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205788485122-oplt2tq302dud2psllq4scb2ieq45041.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205788485122:android:6e9ce1b38b8e631fd9f91b",
+        "android_client_info": {
+          "package_name": "android.example.myapplication002"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205788485122-ajjddh5nblh0oc3qdclmmot3vkltmi36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.myapplication002",
+            "certificate_hash": "33e5e380a40abcd47a3f7ed48d725256f1750f33"
+          }
+        },
+        {
+          "client_id": "205788485122-oplt2tq302dud2psllq4scb2ieq45041.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtPM-mHtHaQvCZa7yKvfJYz14vH5_j5Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205788485122-oplt2tq302dud2psllq4scb2ieq45041.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

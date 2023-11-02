@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="distance_19">19dp</dimen>
+    <dimen name="dist_50">50dp</dimen>
+    <dimen name="line_spacing_point1" />
+</resources>
