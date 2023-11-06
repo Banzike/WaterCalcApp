@@ -3,6 +3,6 @@
 app/src/main
 
 Τα kotlin αρχεία βρίσκονται στο directory:
-app/src/main/java/android/example/myapplication002/
+app/src/main/java/com/waterreserve/myapplication002/
 
 
