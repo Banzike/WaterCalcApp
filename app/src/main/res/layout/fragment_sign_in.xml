@@ -4,7 +4,7 @@
     <data>
         <variable
             name="signInViewModel"
-            type="android.example.myapplication002.screens.signInOrUp.SignInViewModel"/>
+            type="com.waterreserve.myapplication002.screens.signInOrUp.SignInViewModel"/>
 
     </data>
 <LinearLayout
@@ -41,17 +41,19 @@
         android:paddingVertical="25dp"
         android:importantForAutofill="yes"
         android:layout_marginBottom="30dp"/>
-
-    <Button
-        style="@style/button_style"
-        android:text="Είσοδος με πάροχο"
-        android:id="@+id/sign_in_button"/>
     <Button
         android:id="@+id/sign_in_local_button"
         style="@style/button_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         android:text="Είσοδος με τοπικό λογαριασμό"/>
+
+    <Button
+        style="@style/button_style"
+        android:text="Είσοδος με πάροχο"
+        android:id="@+id/sign_in_button"/>
+
 
 <!--    <Button-->
 <!--        android:layout_width="match_parent"-->

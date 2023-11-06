@@ -3,7 +3,7 @@
 <data>
 <variable
     name="signUpViewModel"
-    type="android.example.myapplication002.screens.signInOrUp.SignUpViewModel"/>
+    type="com.waterreserve.myapplication002.screens.signInOrUp.SignUpViewModel"/>
 
 </data>
 <LinearLayout

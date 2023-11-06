@@ -4,7 +4,7 @@ xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
             name="insertDepthViewModel"
-            type="android.example.myapplication002.screens.insertDepth.InsertDepthViewModel" />
+            type="com.waterreserve.myapplication002.screens.insertDepth.InsertDepthViewModel" />
     </data>
 <LinearLayout
     android:layout_width="match_parent"

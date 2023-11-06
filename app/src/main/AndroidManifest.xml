@@ -40,7 +40,7 @@
             android:value="AIzaSyDtPM-mHtHaQvCZa7yKvfJYz14vH5_j5Vg" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.waterreserve.myapplication002.MainActivity"
             android:exported="true"
             android:configChanges="orientation|screenSize">
             <nav-graph android:value="@navigation/navigation" />

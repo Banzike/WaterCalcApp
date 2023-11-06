@@ -3,7 +3,7 @@
     <data>
         <variable
             name="mapsAutoViewModel"
-            type="android.example.myapplication002.screens.mapLocationIn.MapsAutoViewModel" />
+            type="com.waterreserve.myapplication002.screens.mapLocationIn.MapsAutoViewModel" />
     </data>
  <FrameLayout
      android:layout_width="match_parent"

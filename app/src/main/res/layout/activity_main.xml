@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="673dp"
         android:fitsSystemWindows="true"
-        tools:context=".MainActivity"
+        tools:context="com.waterreserve.myapplication002.com.waterreserve.myapplication002.MainActivity"
         tools:openDrawer="start">
 
 
@@ -29,6 +29,16 @@
             android:theme="@style/AppTheme"
             app:headerLayout="@layout/header_navigation_drawer"
             app:menu="@menu/navigation_drawer" />
+
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:id="@+id/my_toolbar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize"-->
+<!--            android:background="?attr/colorPrimary"-->
+<!--            android:elevation="4dp"-->
+<!--            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+<!--            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>-->
+
 
     </androidx.drawerlayout.widget.DrawerLayout>
 </layout>

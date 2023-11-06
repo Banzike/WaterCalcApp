@@ -10,10 +10,10 @@ plugins {
 }
 
 android {
-    namespace 'android.example.myapplication002'
+    namespace 'com.waterreserve.myapplication002'
     compileSdk 34
     defaultConfig {
-        applicationId "android.example.myapplication002"
+        applicationId "com.waterreserve.myapplication002"
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -29,7 +29,22 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+                // Enables code shrinking, obfuscation, and optimization for only
+                // your project's release build type. Make sure to use a build
+                // variant with `isDebuggable=false`.
+                minifyEnabled = true
+
+                // Enables resource shrinking, which is performed by the
+                // Android Gradle plugin.
+                shrinkResources = true
+
+                // Includes the default ProGuard rules files that are packaged with
+                // the Android Gradle plugin. To learn more, go to the section about
+                // R8 configuration files.
+                proguardFiles(
+                        getDefaultProguardFile("proguard-android-optimize.txt"),
+                        "proguard-rules.pro"
+                )
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

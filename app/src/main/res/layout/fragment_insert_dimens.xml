@@ -4,7 +4,7 @@ xmlns:tools="http://schemas.android.com/tools">
     <data>
         <variable
             name="insertDimensViewModel"
-            type="android.example.myapplication002.screens.rect.insertDimens.InsertDimensViewModel" />
+            type="com.waterreserve.myapplication002.screens.rect.insertDimens.InsertDimensViewModel" />
     </data>
 <LinearLayout
     android:layout_width="match_parent"

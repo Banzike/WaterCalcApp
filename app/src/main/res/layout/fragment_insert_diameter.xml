@@ -5,7 +5,7 @@
     <data>
         <variable
             name="insertdiameterViewModel"
-            type="android.example.myapplication002.screens.well.insertDiameter.InsertDiameterViewModel"
+            type="com.waterreserve.myapplication002.screens.well.insertDiameter.InsertDiameterViewModel"
             />
 
     </data>

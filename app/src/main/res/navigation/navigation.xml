@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/titleFragment"
-        android:name="android.example.myapplication002.screens.title.TitleFragment"
+        android:name="com.waterreserve.myapplication002.screens.title.TitleFragment"
         android:label="TitleFragment"
         tools:layout="@layout/fragment_title">
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapMethodFragment"
-        android:name="android.example.myapplication002.screens.mapmethod.MapMethodFragment"
+        android:name="com.waterreserve.myapplication002.screens.mapmethod.MapMethodFragment"
         android:label="MapMethodFragment"
         tools:layout="@layout/fragment_map_method">
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/waterLevelFragment"
-        android:name="android.example.myapplication002.screens.insertwaterlevel.WaterLevelFragment"
+        android:name="com.waterreserve.myapplication002.screens.insertwaterlevel.WaterLevelFragment"
         android:label="WaterLevelFragment"
         tools:layout="@layout/fragment_water_level">
         <deepLink
@@ -65,7 +65,7 @@
     </fragment>
     <fragment
         android:id="@+id/roundOrRectangularFragment"
-        android:name="android.example.myapplication002.screens.roundOrRec.RoundOrRectangularFragment"
+        android:name="com.waterreserve.myapplication002.screens.roundOrRec.RoundOrRectangularFragment"
         android:label="RoundOrRectangularFragment"
         tools:layout="@layout/fragment_round_or_rectangular">
         <action
@@ -81,7 +81,7 @@
     </fragment>
     <fragment
         android:id="@+id/insertDiameterFragment"
-        android:name="android.example.myapplication002.screens.well.insertDiameter.InsertDiameterFragment"
+        android:name="com.waterreserve.myapplication002.screens.well.insertDiameter.InsertDiameterFragment"
         android:label="InsertDiameterFragment"
         tools:layout="@layout/fragment_insert_diameter">
         <action
@@ -96,12 +96,12 @@
     </fragment>
     <fragment
         android:id="@+id/insertDiameterHelpFragment"
-        android:name="android.example.myapplication002.screens.well.insertDiameter.InsertDiameterHelpFragment"
+        android:name="com.waterreserve.myapplication002.screens.well.insertDiameter.InsertDiameterHelpFragment"
         android:label="InsertDiameterHelpFragment"
         tools:layout="@layout/fragment_insert_diameter_help"/>
     <fragment
         android:id="@+id/insertDimensFragment"
-        android:name="android.example.myapplication002.screens.rect.insertDimens.InsertDimensFragment"
+        android:name="com.waterreserve.myapplication002.screens.rect.insertDimens.InsertDimensFragment"
         android:label="InsertDimensFragment"
         tools:layout="@layout/fragment_insert_dimens">
         <action
@@ -112,7 +112,7 @@
     </fragment>
     <fragment
         android:id="@+id/insertDepthFragment"
-        android:name="android.example.myapplication002.screens.insertDepth.InsertDepthFragment"
+        android:name="com.waterreserve.myapplication002.screens.insertDepth.InsertDepthFragment"
         android:label="InsertDepthFragment"
         tools:layout="@layout/fragment_insert_depth">
         <action
@@ -129,12 +129,12 @@
     </fragment>
     <fragment
         android:id="@+id/insertDepthHelpFragment"
-        android:name="android.example.myapplication002.screens.insertDepth.InsertDepthHelpFragment"
+        android:name="com.waterreserve.myapplication002.screens.insertDepth.InsertDepthHelpFragment"
         android:label="InsertDepthHelpFragment"
         tools:layout="@layout/fragment_insert_depth_help"/>
     <fragment
         android:id="@+id/titleOrUpdateFragment"
-        android:name="android.example.myapplication002.screens.titleOrUpdate.TitleOrUpdateFragment"
+        android:name="com.waterreserve.myapplication002.screens.titleOrUpdate.TitleOrUpdateFragment"
         android:label="fragment_title_or_update"
         tools:layout="@layout/fragment_title_or_update" >
         <action
@@ -150,7 +150,7 @@
     </fragment>
     <fragment
         android:id="@+id/dropletFragment"
-        android:name="android.example.myapplication002.screens.droplet.DropletFragment"
+        android:name="com.waterreserve.myapplication002.screens.droplet.DropletFragment"
         android:label="DropletFragment"
         tools:layout="@layout/fragment_droplet">
         <argument
@@ -172,13 +172,13 @@
     </fragment>
     <fragment
         android:id="@+id/waterLevelHelpFragment"
-        android:name="android.example.myapplication002.screens.insertwaterlevel.WaterLevelHelpFragment"
+        android:name="com.waterreserve.myapplication002.screens.insertwaterlevel.WaterLevelHelpFragment"
         android:label="fragment_water_level_help"
         tools:layout="@layout/fragment_water_level_help"
         />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="android.example.myapplication002.screens.mapLocationIn.MapsFragment"
+        android:name="com.waterreserve.myapplication002.screens.mapLocationIn.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps" >
         <action
@@ -187,7 +187,7 @@
     </fragment>
     <fragment
         android:id="@+id/showMapFragment"
-        android:name="android.example.myapplication002.screens.showMap.ShowMapFragment"
+        android:name="com.waterreserve.myapplication002.screens.showMap.ShowMapFragment"
         android:label="ShowMapFragment"
         tools:layout="@layout/fragment_show_map">
         <action
@@ -204,7 +204,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapsAutoFragment"
-        android:name="android.example.myapplication002.screens.mapLocationIn.MapsAutoFragment"
+        android:name="com.waterreserve.myapplication002.screens.mapLocationIn.MapsAutoFragment"
         android:label="MapsAutoFragment"
         tools:layout="@layout/fragment_show_map">
         <action
@@ -216,7 +216,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInOrUpFragment"
-        android:name="android.example.myapplication002.screens.signInOrUp.SignInOrUpFragment"
+        android:name="com.waterreserve.myapplication002.screens.signInOrUp.SignInOrUpFragment"
         android:label="SignInOrUpFragment"
         tools:layout="@layout/fragment_sign_in_or_up">
         <action
@@ -231,7 +231,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="android.example.myapplication002.screens.signInOrUp.SignInFragment"
+        android:name="com.waterreserve.myapplication002.screens.signInOrUp.SignInFragment"
         android:label="SignInFragment"
         tools:layout="@layout/fragment_sign_in">
         <action
@@ -244,7 +244,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="android.example.myapplication002.screens.signInOrUp.SignUpFragment"
+        android:name="com.waterreserve.myapplication002.screens.signInOrUp.SignUpFragment"
         android:label="SignUpFragment"
         tools:layout="@layout/fragment_sign_up">
         <action
@@ -254,7 +254,7 @@
 
     <fragment
         android:id="@+id/userFragment"
-        android:name="android.example.myapplication002.screens.user.UserFragment"
+        android:name="com.waterreserve.myapplication002.screens.user.UserFragment"
         android:label="UserFragment" >
         <action
             android:id="@+id/action_userFragment_to_signInOrUpFragment"
